@@ -43,8 +43,8 @@ CSS optimized for ipad
 
 <p align="center">
 
-<a href=https://ipfs.io/ipfs/QmZJdSRGb9DeRq7w62xz33tKVYpbTe4FPfgfM4yq2FQfj9>	
-<img src="https://ipfs.io/ipfs/QmZJdSRGb9DeRq7w62xz33tKVYpbTe4FPfgfM4yq2FQfj9" height=460>
+<a href=https://ipfs.io/ipfs/Qmc19QDQ6T1kJTGbpXWNEoYevBqG4oT5FD21RH1SUfqq4i>	
+<img src="https://ipfs.io/ipfs/Qmc19QDQ6T1kJTGbpXWNEoYevBqG4oT5FD21RH1SUfqq4i" height=460>
 </a>
 </p>
 
