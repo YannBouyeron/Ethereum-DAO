@@ -14,7 +14,7 @@ IPNS hash: QmXvXjYckKZkYrjBQGxhh8F8ANjvZmWGTFZ9iWv2xQtXyk
 
 ## Requirement
 
-This dapp require web3 client (metamask or cipher)
+This dapp require web3 client ([metamask](https://metamask.io) or [cipher]())
 
 CSS optimized for ipad
 
