@@ -16,7 +16,7 @@ IPNS hash: QmXvXjYckKZkYrjBQGxhh8F8ANjvZmWGTFZ9iWv2xQtXyk
 
 This dapp require web3 client ([metamask](https://metamask.io) or [cipher browser](https://www.cipherbrowser.com))
 
-CSS optimized for ipad
+CSS is optimized for ipad
 
 ## Screenshots
 
@@ -75,7 +75,7 @@ MyDAO interagit avec 3 smart contracts (tok.vy, dex.vy, dao.vy) qui intéragisse
 
 Le smart contract tok.vy est un token ERC20. 
 
-La possession de ces tokens confère un droit de vote et un droit à proposer des projets dans la DAO. Le poids du vote d’un possesseur de ce token est pondéré par la quantité de tokens qu’il possède.
+La possession de ce token confère un droit de vote et un droit à proposer des projets dans la DAO. Le poids du vote d’un possesseur de ce token est pondéré par la quantité de tokens qu’il possède.
 
 Ce token possède toutes les fonctions d’un token ERC20:
 
@@ -93,7 +93,7 @@ Toutes ces fonctions sont accessibles via l’interface Token de la dapp MyDAO
 
 Le smart contract tok.vy possède des fonctions supplémentaires:
 
-La fonction `sequestre` permet des séquestrer les tokens d’un utilisateur pendant un temps donnée. Cette fonction ne peut être exécutée que par:
+La fonction `sequestre` permet de séquestrer les tokens d’un utilisateur pendant un temps donnée. Cette fonction ne peut être exécutée que par:
 
 - le minter du smart contract tok.vy : pour éventuellement séquestrer les tokens d’un utilisateur ne remplissant pas les conditions d’un KYC.
 - le smart contract dao.vy : pour séquestrer les tokens d’un votant le temps du vote.
@@ -101,7 +101,7 @@ La fonction `sequestre` permet des séquestrer les tokens d’un utilisateur pen
 
 Les fonctions `setDao` et `setAirdrop` ne peuvent être exécutées que par le minter du contract, elles permettent d’autoriser le smart contract dao.vy (ou un smart contract airdrop) à séquestrer les tokens des utilisateurs pendant un temps donné.
 
-La fonction `sequestred` attend comme argument une adresse (Ethereum address) et retourne le timestamp de fin du sequestre.
+La fonction `sequestred` attend comme argument une adresse (Ethereum address) et retourne le timestamp de fin du séquestre.
 
 
 #### Smart contract dex.vy
