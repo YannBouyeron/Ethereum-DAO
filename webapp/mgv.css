@@ -320,6 +320,28 @@
 		
 		}
 		
+		.intro {
+
+		
+		position: relative;
+		top: 34px;
+		padding: 20px;
+		background-color: #e0e0e0;
+		text-align: center;
+		border-radius: 5px;
+		min-height: 286px;
+		
+		
+		/* alignement vertical */
+		
+		display: flex; /* contexte sur le parent */
+		flex-direction: column; /* direction d'affichage verticale */
+		justify-content: center; /* alignement vertical */
+		
+		}
+		
+		
+
 		input {
 		margin-bottom: 20px;
 		margin-right: 20px;

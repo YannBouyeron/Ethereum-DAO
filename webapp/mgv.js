@@ -150,7 +150,7 @@ function tosel() {
 
 function toproposal() {
 
-	document.getElementById("bas").innerHTML = "<form name='propose'><h4>Proposer un projet:</h4><h5>Décrivez votre projet dans un fichier et postez le sur ipfs pour obtenir son Hash. Si vous ne disposez pas de noeud ipfs, vous pouvez utiliser <a href='https://ipfs.io/ipfs/QmZFJkMEEE9HNUrUYLLJVaw6mWoYYwdoDtXhXmWV2AeNiX'>cette application</a> en ligne.</h5><h5>Choisissez ensuite l'action ci dessous que vous voulez soumettre au vote pour financer ou réaliser votre porjet.</h5><div class='grillemethod'><div class='methoddao'><a href='#' class='button' onClick='toapprovedao()'><span>Approve ERC20</span></a></div><div class='methoddao'><a href='#' class='button' onClick='tobuydao()'><span>Buy ERC20</span></a></div><div class='methoddao'><a href='#' class= 'button' onClick='toseldao()'><span>Sel ERC20</span></a></div><div class='methoddao'><a href='#' class='button' onClick='tosendeth()'><span>Send Ether</span></a></div><div class='methoddao'><a href='#' class='button' onClick='torien()'><span>Rien</span></a></div></div></form>";
+	document.getElementById("bas").innerHTML = "<form name='propose'><h4>Proposer un projet:</h4><h5>Décrivez votre projet dans un fichier et postez le sur ipfs pour obtenir son Hash. Si vous ne disposez pas de noeud ipfs, vous pouvez utiliser <a href='https://ipfs.io/ipfs/QmZFJkMEEE9HNUrUYLLJVaw6mWoYYwdoDtXhXmWV2AeNiX'>cette application</a> en ligne.</h5><h5>Choisissez ensuite l'action ci dessous que vous voulez soumettre au vote pour financer ou réaliser votre projet.</h5><div class='grillemethod'><div class='methoddao'><a href='#' class='button' onClick='toapprovedao()'><span>Approve ERC20</span></a></div><div class='methoddao'><a href='#' class='button' onClick='tobuydao()'><span>Buy ERC20</span></a></div><div class='methoddao'><a href='#' class= 'button' onClick='toseldao()'><span>Sel ERC20</span></a></div><div class='methoddao'><a href='#' class='button' onClick='tosendeth()'><span>Send Ether</span></a></div><div class='methoddao'><a href='#' class='button' onClick='torien()'><span>Rien</span></a></div></div></form>";
 
 }
 
@@ -194,18 +194,25 @@ function tosendeth() {
 if (typeof(web3) === "undefined") {
 	
 		document.getElementById("status").innerHTML = "<p class='petit'>Unable to find web3.<br><br>Please run MetaMask (or something else that injects web3).</p>";
+
+		document.getElementById("result").innerHTML = "<div class='intro'><h3>My DAO est une application Ethereum décentralisée (dapp)</h3><h3>Un client web3 tel que <a href='https://metamask.io'>metamask</a> ou <a href='https://www.cipherbrowser.com'>cipher browser</a> est nécessaire pour accéder aux fonctionnalités de cette dapp.</h3></div>";
 	}
 	
 	
-if (web3.version.network != 3) {
+if (web3.version.network != '3') {
 	
 		document.getElementById("status").innerHTML = "<p>Wrong network detected. Please switch to the Ropsten test network.</p>";
+		
+		document.getElementById("result").innerHTML = "<div class='intro'><h3>My DAO est une application Ethereum décentralisée (dapp)</h3><h3>Attention, cette version de démonstration est déployée sur le Ropsten testnet. Passez sur le Ropsten testnet pour pouvoir utiliser les fonctionnalités de cette dapp.</h3></div>";
+
 	}
 		
-	
 
+if (web3.version.network === "3") {
 
+		document.getElementById("result").innerHTML = "<div class='intro'><h1>Welcome to My DAO</h1></div>";
 
+}
 
 
 
