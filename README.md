@@ -93,7 +93,7 @@ Toutes ces fonctions sont accessibles via l’interface Token de la dapp MyDAO
 
 Le smart contract tok.vy possède des fonctions supplémentaires:
 
-La fonction `sequestre` permet de séquestrer les tokens d’un utilisateur pendant un temps donnée. Cette fonction ne peut être exécutée que par:
+La fonction `sequestre` permet de séquestrer les tokens d’un utilisateur pendant un temps donné. Cette fonction ne peut être exécutée que par:
 
 - le minter du smart contract tok.vy : pour éventuellement séquestrer les tokens d’un utilisateur ne remplissant pas les conditions d’un KYC.
 - le smart contract dao.vy : pour séquestrer les tokens d’un votant le temps du vote.
