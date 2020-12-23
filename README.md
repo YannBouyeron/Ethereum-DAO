@@ -4,19 +4,19 @@ DAO (decentralized autonomous organization) Ethereum 100 % decentralized.
 
 ## IPFS links
 
-Latest IPFS hash (2019-10-24): QmPwFcqtXLSg91LFfmhVaZMNUEQ5TCpu7PYqzaWCv7HnFy
+Latest IPFS hash: QmaV8chNFSsWtfoK3UTStiQbW4aHUdcSe46WCEuWoxUFAP 
 
-[Test on Ropsten via IPFS](https://ipfs.io/ipfs/QmPwFcqtXLSg91LFfmhVaZMNUEQ5TCpu7PYqzaWCv7HnFy/mgv.html)
+[Test on Ropsten via IPFS](https://ipfs.io/ipfs/QmaV8chNFSsWtfoK3UTStiQbW4aHUdcSe46WCEuWoxUFAP/mgv.html)
 
-IPNS hash: QmXvXjYckKZkYrjBQGxhh8F8ANjvZmWGTFZ9iWv2xQtXyk
+IPNS hash: k2k4r8mysbwr95decm1aljrwo24vo2ayohaeusngalvvbud28nby7iqj
 
-[Test on Ropsten via IPNS](https://ipfs.io/ipns/QmXvXjYckKZkYrjBQGxhh8F8ANjvZmWGTFZ9iWv2xQtXyk/mgv.html)
+[Test on Ropsten via IPNS](https://ipfs.io/ipns/k2k4r8mysbwr95decm1aljrwo24vo2ayohaeusngalvvbud28nby7iqj/mgv.html)
 
 ## Requirement
 
-This dapp require web3 client ([metamask](https://metamask.io) or [cipher browser](https://www.cipherbrowser.com))
+Cette dapp requiert un client web3 ([metamask](https://metamask.io) or [cipher browser](https://www.cipherbrowser.com))
 
-CSS is optimized for ipad
+Le CSS est pour l'instant optimisé uniquement pour ipad format landscape
 
 ## Screenshots
 
