@@ -4,9 +4,9 @@ DAO (decentralized autonomous organization) Ethereum 100 % decentralized.
 
 ## IPFS links
 
-Latest IPFS hash: QmaV8chNFSsWtfoK3UTStiQbW4aHUdcSe46WCEuWoxUFAP 
+Latest IPFS hash: QmQEYftPDScFjgpSSYVYJVmDcE153F62uu9btvQu6rsFkm
 
-[Test on Ropsten via IPFS](https://ipfs.io/ipfs/QmaV8chNFSsWtfoK3UTStiQbW4aHUdcSe46WCEuWoxUFAP/mgv.html)
+[Test on Ropsten via IPFS](https://ipfs.io/ipfs/QmQEYftPDScFjgpSSYVYJVmDcE153F62uu9btvQu6rsFkm/mgv.html)
 
 IPNS hash: k2k4r8mysbwr95decm1aljrwo24vo2ayohaeusngalvvbud28nby7iqj
 
